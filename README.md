@@ -38,7 +38,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img alt="drawing" src="https://github.com/gabrielgarciapimentel/MariaDelivery/blob/main/example/Detail%20Card%2093.png"  />
 </div>
 
 ###
