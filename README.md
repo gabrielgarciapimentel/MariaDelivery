@@ -29,16 +29,10 @@
 
 ###
 
-<h2 align="left">Exemplo</h2>
+<h2 align="left">Layout Base</h2>
 
 ###
 
-<p align="left">Utilizamos um layout gratuito no figma, o layout baseado diz a respeito de um app de frutas e legumes, apenas iremos substituir as frutas por bebidas e os legumes por petiscos, o exemplo de como as telas se parecerão estará abaixo.</p>
-
-###
-
-<div align="center">
-  <img alt="drawing" src="https://github.com/gabrielgarciapimentel/MariaDelivery/blob/main/example/Detail%20Card%2093.png"  />
-</div>
+<p align="left">Utilizamos um layout gratuito no figma, o layout baseado diz a respeito de um app de frutas e legumes, apenas iremos substituir as frutas por bebidas e os legumes por petiscos, o exemplo de como as telas se parecerão estará abaixo. O link para layout do figma é esse: https://www.figma.com/file/R8fk4OumpTtZWBII3ECFL7/Fresh-Grocer-App?type=design&node-id=0%3A1&mode=design&t=2ctleyfkGrF8MBeK-1</p>
 
 ###
