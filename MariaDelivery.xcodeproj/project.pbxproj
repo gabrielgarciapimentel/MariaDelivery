@@ -21,6 +21,11 @@
 		C961C3EA2A9E7D5C00A59A32 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C961C3E22A9E7D5C00A59A32 /* Poppins-ExtraBold.ttf */; };
 		C961C3EC2A9E7E9800A59A32 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C3EB2A9E7E9800A59A32 /* UIFont.swift */; };
 		C961C3F02A9E886E00A59A32 /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C3EF2A9E886E00A59A32 /* ViewCodeProtocol.swift */; };
+		C961C4022A9EA9E400A59A32 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C4012A9EA9E400A59A32 /* SplashViewController.swift */; };
+		C961C4042A9EAA2C00A59A32 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C4032A9EAA2C00A59A32 /* HomeViewController.swift */; };
+		C961C4062A9EAAB000A59A32 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C4052A9EAAB000A59A32 /* RegisterViewController.swift */; };
+		C961C40C2A9ECE3100A59A32 /* Button+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C40B2A9ECE3100A59A32 /* Button+Gradient.swift */; };
+		C961C40E2A9ED5C400A59A32 /* View+Glow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C40D2A9ED5C400A59A32 /* View+Glow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		C961C3E22A9E7D5C00A59A32 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		C961C3EB2A9E7E9800A59A32 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		C961C3EF2A9E886E00A59A32 /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
+		C961C4012A9EA9E400A59A32 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C961C4032A9EAA2C00A59A32 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C961C4052A9EAAB000A59A32 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C961C40B2A9ECE3100A59A32 /* Button+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Gradient.swift"; sourceTree = "<group>"; };
+		C961C40D2A9ED5C400A59A32 /* View+Glow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Glow.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,7 @@
 		C961C3C32A9E579400A59A32 /* MariaDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				C961C40A2A9ECE1500A59A32 /* Utils */,
 				C961C3F12A9E977C00A59A32 /* Screens */,
 				C961C3EE2A9E885A00A59A32 /* Factories */,
 				C961C3D92A9E7D1000A59A32 /* Fonts */,
@@ -142,6 +153,7 @@
 		C961C3F22A9E978E00A59A32 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				C961C4012A9EA9E400A59A32 /* SplashViewController.swift */,
 			);
 			name = Splash;
 			sourceTree = "<group>";
@@ -149,6 +161,7 @@
 		C961C3F32A9E979900A59A32 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				C961C4052A9EAAB000A59A32 /* RegisterViewController.swift */,
 			);
 			name = Register;
 			sourceTree = "<group>";
@@ -156,6 +169,7 @@
 		C961C3F42A9E989900A59A32 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C961C4032A9EAA2C00A59A32 /* HomeViewController.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -251,6 +265,15 @@
 			name = PaymentMethods;
 			sourceTree = "<group>";
 		};
+		C961C40A2A9ECE1500A59A32 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C961C40B2A9ECE3100A59A32 /* Button+Gradient.swift */,
+				C961C40D2A9ED5C400A59A32 /* View+Glow.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -331,8 +354,13 @@
 			files = (
 				C961C3C92A9E579400A59A32 /* ViewController.swift in Sources */,
 				C961C3F02A9E886E00A59A32 /* ViewCodeProtocol.swift in Sources */,
+				C961C40C2A9ECE3100A59A32 /* Button+Gradient.swift in Sources */,
+				C961C4062A9EAAB000A59A32 /* RegisterViewController.swift in Sources */,
+				C961C40E2A9ED5C400A59A32 /* View+Glow.swift in Sources */,
 				C961C3C52A9E579400A59A32 /* AppDelegate.swift in Sources */,
 				C961C3EC2A9E7E9800A59A32 /* UIFont.swift in Sources */,
+				C961C4022A9EA9E400A59A32 /* SplashViewController.swift in Sources */,
+				C961C4042A9EAA2C00A59A32 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
